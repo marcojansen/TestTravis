@@ -8,5 +8,5 @@ android:
     - extra
 
 script:
-  ./gradlew build
-  ./gradlew build test
+  - ./gradlew build
+  - ./gradlew build test
