@@ -5,7 +5,11 @@ android:
     # use the latest revision of Android SDK Tools
     - tools
     - platform-tools
+    - tools
     - extra
+
+    - build-tools-25.0.0
+    - android-26
 
 script:
   - ./gradlew build
