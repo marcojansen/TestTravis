@@ -40,9 +40,4 @@ public class TestFeatures {
         assertEquals(results[0], 0.5, 0.5);
         assertEquals(results[0], 0.5, 0.5);
     }
-
-    @Test
-    public void failTest() {
-        assertEquals(list.size(), 500, 0);
-    }
 }
