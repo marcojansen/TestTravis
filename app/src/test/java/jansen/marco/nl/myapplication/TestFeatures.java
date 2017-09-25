@@ -36,8 +36,9 @@ public class TestFeatures {
 
         assertNotNull(results);
         assertEquals(3, results.length);
+        // Generates random between 0-1. The average must be in this bracket.
         assertEquals(results[0], 0.5, 0.5);
-        assertEquals(results[0], 0.5, 0.5);
-        assertEquals(results[0], 0.5, 0.5);
+        assertEquals(results[1], 0.5, 0.5);
+        assertEquals(results[2], 0.5, 0.5);
     }
 }
